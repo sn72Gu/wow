@@ -20,13 +20,19 @@ body {
 }
 .site-header-btn {
   float:right;
+}
+.site-header-btn a {
+  color: white;
+  text-decoration: none;
   border: 1px solid white;
   padding: 4px 10px;
 }
-.site-header-btn a {
-  color: #fff;
-  text-decoration: none;
+.site-header-btn a:hover {
+  color: #f36600;
+  background-color: #fdcb20;
+  border: 1px solid white;
 }
+
 .top {
   display:inline;
 }
@@ -38,7 +44,11 @@ body {
 }
 
 p.top {
-  padding-left: 100px;
+  position:relative;
+  top: -4px;
+  left: 13px;
+  font-size: 22px;
+  font-style: italic;
 }
 
 
@@ -127,4 +137,61 @@ p.top {
   margin: 10px;
   border: 1px solid white;
   padding: 4px 6px 4px 4px;
+}
+
+
+
+
+
+
+/* TIME */
+.time {
+  position:relative;
+  top: 0px;
+  left: 30px;
+  font-size: 22px;
+  color: #fdcb20;
+  border: 1px solid white;
+  padding: 6px;
+  width: 120px;
+  background-color: #333;
+  margin-left: 10px;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+
+/* DATE */
+.date {
+  position:relative;
+  top: 0px;
+  left: 30px;
+  font-size: 22px;
+  color: #fdcb20;
+  border: 1px solid white;
+  padding: 6px;
+  width: 120px;
+  background-color: #333;
+  margin-left: 10px;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+
+
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #f36600;
 }
