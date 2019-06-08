@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>nowwow</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="assets/styles/styles.css"
+
+</head>
+
+
+<body>
+
+
+  <header class="site-header">
+    <div class="wrapper">
+
+      <img src="assets/images/wow.png"><p class="top">Wow!</p>
+
+      <div class="site-header-btn">
+        <a href="https://www.startpage.com/">Hi Mom!</a>
+      </div>
+
+    </div><!-- end.wrapper -->
+  </header>
+
+
+
+
+
+  <div class="row">
+
+    <div class="column left">
+      <div class="button">
+        <div class="btn">
+          <a href="https://www.startpage.com/" class="button">StartPage</a>
+          <a href="https://gmail.com" class="button">Gmail</a>
+          <a href="https://www.google.com/" class="button">Google</a>
+          <a href="https://en.wikipedia.org/wiki/Main_Page" class="button">Wikpedia</a>
+          <a href="https://facebook.com" class="button">Facebook</a>
+          <a href="#" class="button">Here</a>
+        </div>
+      </div><!-- end.button -->
+    </div><!-- end.columnleft -->
+
+    <div class="column middle">
+
+    </div><!-- end.columnmiddle -->
+
+    <div class="column right">
+        <div class="weather_grid">
+          <div class="weather_grid_toprow">
+            <div id="cont_636bec062d7627296da4c17bb0cd4437"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/636bec062d7627296da4c17bb0cd4437"></script></div>
+            <div id="cont_db01c87327a4528d17ad9be2a96ee075"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/db01c87327a4528d17ad9be2a96ee075"></script></div>
+          </div>
+          <div class="weather_grid_bottomrow">
+            <div id="cont_f8ae34390d06ab3d7a5a9d7cdf5591b6"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/f8ae34390d06ab3d7a5a9d7cdf5591b6"></script></div>
+            <div id="cont_b93f58b7b12df66288dfa007b4c77f20"><script type="text/javascript" async src="https://www.theweather.com/wid_loader/b93f58b7b12df66288dfa007b4c77f20"></script></div>
+          </div>
+        </div><!-- end.weather_grid -->
+    </div><!-- end.columnright -->
+
+  </div><!-- end.row -->
+
+
+
+
+  <div class="time">
+    <script>
+                 var currentTime = new Date(),
+                    hours = currentTime.getHours(),
+                    minutes = currentTime.getMinutes();
+
+                 if (minutes < 10) {
+                 minutes = "0" + minutes;
+                 }
+
+      var suffix = "AM";
+       if (hours >= 12) {
+                  suffix = "PM";
+                  hours = hours - 12;
+      }
+      if (hours == 0) {
+       hours = 12;
+      }
+
+      document.write(hours + ":" + minutes + " " + suffix)
+    </script>
+  </div>
+
+
+
+
+
+  <div class="date">
+    <script>
+      var currentDate = new Date(),
+          day = currentDate.getDate(),
+          month = currentDate.getMonth() + 1,
+          year = currentDate.getFullYear();
+      document.write(day + "." + month + "." + year)
+    </script>
+  </div>
+
+
+
+
+
+  <footer>
+    <p>Copyright &copy; 2016 Clear View Escapes. All rights reserved. <a href="#">Get in Touch</a></p>
+  </footer>
+
+
+</body>
+
+
+</html>
