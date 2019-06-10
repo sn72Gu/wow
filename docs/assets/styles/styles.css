@@ -167,28 +167,22 @@ p.top {
   font-style: italic;
   color: #ffe9a2;
 }
-
-
-
-
-
-/* verse top
-.quote_container {
-  width: 660px;
-  height: auto;
-  border: 1px solid white;
-  margin-left: auto;
-  margin-right: auto;
+.verse_top a {
+  color: transparent;
 }
-.quote {
-  width: 400px;
-  border: 1px solid #ffe9a2;
-  padding: 10px 20px;
-  margin: 4px;
-  font-size: 18px;
-  color: #ffe9a2;
+.verse_top a:hover {
+  color: red;
 }
-*/
+.verse_top p {
+  font-style: normal;
+  font-size: 70%;
+  color: red;
+}
+.verse_top span {
+  font-size: 80%;
+  color: red;
+}
+
 
 
 
@@ -209,45 +203,6 @@ p.top {
   padding: 4px 6px 4px 4px;
 }
 
-
-
-
-
-/*
-.time {
-  position:relative;
-  top: 0px;
-  left: 30px;
-  font-size: 22px;
-  color: #ffe9a2;
-  border: 1px solid white;
-  padding: 6px;
-  width: 120px;
-  background-color: #333;
-  margin-left: 10px;
-  margin-right: auto;
-  text-align: center;
-}
-
-
-
-
-
-.date {
-  position:relative;
-  top: 0px;
-  left: 30px;
-  font-size: 22px;
-  color: #ffe9a2;
-  border: 1px solid white;
-  padding: 6px;
-  width: 120px;
-  background-color: #333;
-  margin-left: 10px;
-  margin-right: auto;
-  text-align: center;
-}
-*/
 
 
 

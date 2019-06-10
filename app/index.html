@@ -65,8 +65,15 @@
 
       <div class="verse_container_top">
         <div class="verse_top">
-          <br /><br />
-          <script src="http://www.verse-a-day.com/js/KJV.js"></script>
+          <p>Guess the Verse<br /><span>(hover over end of verse to see)</span></p>
+          <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
+          <script src="https://www.biblegateway.com/votd/get/?format=json&version=KJV&callback=BG.votdWriteCallback"></script>
+          <!-- alternative for no javascript -->
+          <noscript>
+          <iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get/?format=html&version=KJV"></iframe>
+          </noscript>
+
+
         </div>
       </div><!-- end.verse_container_top -->
 

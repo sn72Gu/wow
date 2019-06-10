@@ -167,7 +167,21 @@ p.top {
   font-style: italic;
   color: #ffe9a2;
 }
-
+.verse_top a {
+  color: transparent;
+}
+.verse_top a:hover {
+  color: red;
+}
+.verse_top p {
+  font-style: normal;
+  font-size: 70%;
+  color: red;
+}
+.verse_top span {
+  font-size: 80%;
+  color: red;
+}
 
 
 
