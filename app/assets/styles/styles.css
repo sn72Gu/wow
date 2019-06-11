@@ -12,7 +12,7 @@ body {
 
 
 
-/* THE HEADER */
+/* THE BLUE BAR */
 .site-header {
   position: relative;
   background-color: #0a275d;
@@ -32,7 +32,6 @@ body {
   background-color: #fdcb20;
   border: 1px solid white;
 }
-
 .top {
   display:inline;
 }
@@ -42,7 +41,6 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
 p.top {
   position:relative;
   top: -4px;
@@ -73,10 +71,12 @@ p.top {
   width: 11%;
 }
 .middle {
+  margin-top: 25px;
   background-color: #636363;
   width: 50%;
   border: 1px solid white;
   height: 800px;
+  border-radius: 25px;
 }
 .right {
   background-color: transparent;
@@ -121,18 +121,23 @@ p.top {
 
 
 
+
 /* verse top*/
 .verse_container_top {
   width: 660px;
   height: auto;
   border: 1px solid white;
+  border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  box-shadow: 10px 10px 7px #222;
+  background-image: linear-gradient(#6a8da7, #0a275d);
 }
 .verse_top {
   width: 650px;
   border: 1px solid #ffe9a2;
+  border-radius: 25px;
   padding: 10px 20px;
   margin: 4px;
   background-color: #333;
@@ -165,6 +170,10 @@ p.top {
 }
 
 
+
+
+
+/* SLIDESHOW */
 .slider_container_outside {
   width: 310px;
   border: 1px solid #ffe9a2;
@@ -172,6 +181,8 @@ p.top {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  background-image: linear-gradient(#6a8da7, #0a275d);
+  box-shadow: 10px 10px 7px #222;
 }
 .slider_container {
   width: 300px;
@@ -183,11 +194,14 @@ p.top {
 
 
 
+
+/* CLOCK */
 /* clock_container */
 .clock_container {
   width: 310px;
   height: auto;
   border: 1px solid #ffe9a2;
+  border-radius: 25px;
   background-image: linear-gradient(#6a8da7, #0a275d);
   margin-left: auto;
   margin-right: auto;
@@ -200,12 +214,15 @@ p.top {
   width: 298px;
   margin: 4px;
   border: 2px solid #fff;
+  border-radius: 25px;
   padding: 10px 20px;
   margin: 4px;
   background-color: #ffe9a2;
   color: #000;
   font-size: 150%;
 }
+
+
 
 
 /* WEATHER BOXES */
