@@ -182,6 +182,13 @@ p.top {
   font-size: 80%;
   color: red;
 }
+.pdiv {
+  width: 350px;
+  border: 1px dashed #6a8da7;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 
