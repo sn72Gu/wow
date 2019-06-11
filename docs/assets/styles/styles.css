@@ -77,7 +77,6 @@ p.top {
   width: 50%;
   border: 1px solid white;
   height: 800px;
-  padding-top: 30px;
 }
 .right {
   background-color: transparent;
@@ -122,32 +121,6 @@ p.top {
 
 
 
-/* clock_container */
-.clock_container {
-  width: 310px;
-  height: auto;
-  border: 1px solid #ffe9a2;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-/* clock */
-.clock {
-  text-align: center;
-  width: 298px;
-  margin: 4px;
-  border: 2px solid #fff;
-  padding: 10px 20px;
-  margin: 4px;
-  background-color: #ffe9a2;
-  color: #000;
-  font-size: 150%;
-}
-
-
-
-
 /* verse top*/
 .verse_container_top {
   width: 660px;
@@ -155,6 +128,7 @@ p.top {
   border: 1px solid white;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 .verse_top {
   width: 650px;
@@ -191,11 +165,57 @@ p.top {
 }
 
 
+.slider_container_outside {
+  width: 310px;
+  border: 1px solid #ffe9a2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slider_container {
+  width: 300px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 4px;
+}
+
+
+
+
+/* clock_container */
+.clock_container {
+  width: 310px;
+  height: auto;
+  border: 1px solid #ffe9a2;
+  background-image: linear-gradient(#6a8da7, #0a275d);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* clock */
+.clock {
+  text-align: center;
+  width: 298px;
+  margin: 4px;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  margin: 4px;
+  background-color: #ffe9a2;
+  color: #000;
+  font-size: 150%;
+}
 
 
 /* WEATHER BOXES */
 .weather_grid {
-  padding: 30px;
+  border: 4px solid #0a275d;
+  width: 490px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  background-image: linear-gradient(#0a275d, #6a8da7);
 }
 .weather_grid_toprow {
   display:inline-block;
