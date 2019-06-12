@@ -2,13 +2,20 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  background-color: black;
+  background-color: #111;
 }
 * {
   box-sizing: border-box;
 }
 
 
+.box {
+  width: 1700px;
+  border: 1px solid transparent;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 
 
 
@@ -56,7 +63,7 @@ p.top {
 
 /* THREE COLUMN LAYOUT */
 .row {
-  height:900px;
+  height:940px;
   background-image: linear-gradient(#6a8da7, #0a275d);
   float: left;
   width: 100%;
@@ -75,7 +82,7 @@ p.top {
   background-color: #636363;
   width: 50%;
   border: 1px solid white;
-  height: 800px;
+  height: 700px;
   border-radius: 25px;
   background-image: url("../../assets/images/dot02.png");
   background-repeat: repeat;
@@ -108,7 +115,7 @@ p.top {
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 22px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
   max-width: 100%;
@@ -258,11 +265,4 @@ p.top {
 .footer {
   width: 100%;
   text-align: center;
-}
-.footer a {
-  color: white;
-  text-decoration: none;
-}
-.footer a:hover {
-  color: #f36600;
 }
