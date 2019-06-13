@@ -2,7 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  background-image: url("../../assets/images/bg.jpg");
+  background-image: url("../../assets/images/bg03.jpg");
 }
 * {
   box-sizing: border-box;
@@ -243,7 +243,7 @@ p.top {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(#0a275d, #6a8da7);
-  background-image: url("../../assets/images/bg.jpg");
+  background-image: url("../../assets/images/bg03.jpg");
 }
 .weather_grid_left {
   display:inline-block;
