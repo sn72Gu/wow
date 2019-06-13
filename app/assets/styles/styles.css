@@ -2,7 +2,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
-  background-color: #111;
+  background-image: url("../../assets/images/bg.jpg");
 }
 * {
   box-sizing: border-box;
@@ -10,11 +10,10 @@ body {
 
 
 .box {
-  width: 1700px;
+  width: 1300px;
   border: 1px solid transparent;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 
@@ -75,12 +74,12 @@ p.top {
 }
 .left {
   background-color: transparent;
-  width: 11%;
+  width: 18%;
 }
 .middle {
   margin-top: 25px;
   background-color: #636363;
-  width: 50%;
+  width: 47%;
   border: 1px solid white;
   height: 700px;
   border-radius: 25px;
@@ -89,7 +88,7 @@ p.top {
 }
 .right {
   background-color: transparent;
-  width: 39%;
+  width: 35%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -109,13 +108,12 @@ p.top {
   left: 5px;
 }
 .button {
-  border: none;
   color: white;
   padding: 6px 12px;
   text-align: center;
   text-decoration: none;
   display: block;
-  font-size: 18px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
   max-width: 100%;
@@ -133,18 +131,18 @@ p.top {
 
 /* verse top*/
 .verse_container_top {
-  width: 660px;
+  width: 530px;
   height: auto;
   border: 1px solid white;
   border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 26px;
   box-shadow: 10px 10px 7px #222;
   background-image: linear-gradient(#6a8da7, #0a275d);
 }
 .verse_top {
-  width: 650px;
+  width: 520px;
   border: 1px solid #ffe9a2;
   border-radius: 25px;
   padding: 10px 20px;
@@ -235,25 +233,33 @@ p.top {
 
 
 /* WEATHER BOXES */
-.weather_grid {
-  border: 4px solid #0a275d;
-  width: 490px;
+.weatherbox {
+  width: 268px;
   margin-left: auto;
   margin-right: auto;
-  background-color: black;
+}
+.weather_grid {
+  width: 268px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(#0a275d, #6a8da7);
+  background-image: url("../../assets/images/bg.jpg");
 }
-.weather_grid_toprow {
+.weather_grid_left {
   display:inline-block;
-  margin: 10px;
-  border: 1px solid white;
-  padding: 4px 6px 4px 4px;
+  margin-left: 10px;
+  margin-right: 5px;
+  border: 1px solid transparent;
+  padding: 4px 5px 4px 4px;
+  background-color: #222;
 }
-.weather_grid_bottomrow {
+.weather_grid_right {
   display:inline-block;
-  margin: 10px;
-  border: 1px solid white;
-  padding: 4px 6px 4px 4px;
+  margin-left: 5px;
+  margin-right: 10px;
+  border: 1px solid transparent;
+  padding: 4px 5px 4px 4px;
+  background-color: #222;
 }
 
 
