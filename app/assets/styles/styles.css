@@ -28,15 +28,15 @@ body {
   float:right;
 }
 .site-header-btn a {
-  color: white;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid #555;
   padding: 4px 10px;
 }
 .site-header-btn a:hover {
   color: #f36600;
   background-color: #fdcb20;
-  border: 1px solid white;
+  background-color: black;
+  border: 1px solid #aaa;
 }
 .top {
   display:inline;
