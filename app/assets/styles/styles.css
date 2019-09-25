@@ -203,6 +203,23 @@ p.top {
 }
 
 
+/* artist */
+.artist {
+  height: 70px;
+  width: 200px;
+  decoration: none;
+  font-size: 16px;
+  background color black;
+  border: 2px solid #333;
+}
+.artist a {
+  color: #ddd;
+}
+.artist a:hover {
+  color: white;
+}
+
+
 
 
 
