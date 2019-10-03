@@ -74,16 +74,16 @@ p.top {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
 }
 .left {
   background-color: transparent;
-  width: 18%;
+  width: 15%;
 }
 .middle {
   margin-top: 25px;
+  padding-top: 40px;
   background-color: #636363;
-  width: 47%;
+  width: 62%;
   border: 1px solid white;
   height: 700px;
   border-radius: 25px;
@@ -92,7 +92,7 @@ p.top {
 }
 .right {
   background-color: transparent;
-  width: 35%;
+  width: 23%;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -133,7 +133,7 @@ p.top {
 
 
 
-/* verse top*/
+/* verse top
 .verse_container_top {
   width: 530px;
   height: auto;
@@ -179,12 +179,88 @@ p.top {
   margin-left: auto;
   margin-right: auto;
 }
+*/
+
+
+/* new slideshow */
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: #D93B65;
+}
+
+.slide:nth-child(2) {
+  background: #037E8C;
+}
+
+.slide:nth-child(3) {
+  /*background: #36BF66;*/
+  background-image: url(../../assets/images/ck.jpg);
+}
+
+.slide:nth-child(4) {
+  background: #D9D055;
+}
+
+
+.slide-number {
+  position:relative;
+  top: 410px;
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+.artistName {
+  width: 300px;
+  text-align: center;
+  background-color: #555;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.artistName a {
+  color: ddd;
+  text-decoration:none;
+}
+.artistName a:visited {
+  color: white;
+}
+.artistName a:hover {
+  color: white;
+}
 
 
 
-
-
-/* SLIDESHOW */
+/* SLIDESHOW
 .slider_container_outside {
   width: 310px;
   height: auto;
@@ -202,9 +278,10 @@ p.top {
   text-align: center;
   margin: 4px;
 }
+*/
 
 
-/* artist */
+/* artist
 .artist {
   height: 50px;
   width: 200px;
@@ -221,7 +298,7 @@ p.top {
 .artist a:hover {
   color: white;
 }
-
+*/
 
 
 
@@ -229,7 +306,7 @@ p.top {
 /* CLOCK */
 /* clock_container */
 .clock_container {
-  width: 310px;
+  width: 240px;
   height: auto;
   border: 1px solid #ffe9a2;
   border-radius: 25px;
@@ -242,7 +319,7 @@ p.top {
 /* clock */
 .clock {
   text-align: center;
-  width: 298px;
+  width: 228px;
   margin: 4px;
   border: 2px solid #fff;
   border-radius: 25px;
