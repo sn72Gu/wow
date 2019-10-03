@@ -203,19 +203,22 @@ p.top {
 
 .slide:nth-child(1) {
   background: #D93B65;
+  background-image: url(../../assets/images/01.jpg);
 }
 
 .slide:nth-child(2) {
   background: #037E8C;
+  background-image: url(../../assets/images/02.jpg);
 }
 
 .slide:nth-child(3) {
   /*background: #36BF66;*/
-  background-image: url(../../assets/images/ck.jpg);
+  background-image: url(../../assets/images/03.jpg);
 }
 
 .slide:nth-child(4) {
   background: #D9D055;
+  background-image: url(../../assets/images/04.jpg);
 }
 
 
